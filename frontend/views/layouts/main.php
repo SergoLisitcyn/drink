@@ -38,9 +38,9 @@ $model = \common\models\Category::find()->where(['sort' => 'on'])->all();
 <header class="header_area">
     <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand logo_h" href="/" style="color: #222;font-weight: 700;font-size: 30px;">Алкоголь в Калининграде</a>
-                <a style="color: #222;font-weight: 700;font-size: 30px;" href="tel:+7 (911) 111-11-11">+7 (911) 111-11-11</a>
+            <div class="container" style="padding-left: 0;">
+                <a class="navbar-brand logo_h" href="/" style="color: #222;font-weight: 700;font-size: 30px;padding: 15px 0;">Алкоголь в Калининграде</a>
+                <a style="color: #222;font-weight: 700;font-size: 30px;" href="tel:+79520583101">+7 (952) 058-31-01</a>
             </div>
         </nav>
     </div>
@@ -122,8 +122,7 @@ $model = \common\models\Category::find()->where(['sort' => 'on'])->all();
                                 Номер телефона
                             </p>
                             <p>
-                                +123 456 7890 <br>
-                                +123 456 7890
+                                +7 952 058 31 01
                             </p>
 
                             <p class="sm-head">
@@ -158,7 +157,7 @@ $model = \common\models\Category::find()->where(['sort' => 'on'])->all();
 
 <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
 <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="vendors/skrollr.min.js"></script>
+<!--<script src="vendors/skrollr.min.js"></script>-->
 <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
 <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
 <script src="vendors/jquery.ajaxchimp.min.js"></script>
