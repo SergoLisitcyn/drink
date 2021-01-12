@@ -130,8 +130,7 @@ $model = \common\models\Category::find()->where(['sort' => 'on'])->all();
                                 Email
                             </p>
                             <p>
-                                free@infoexample.com <br>
-                                www.infoexample.com
+                                podolenkov87@list.ru
                             </p>
                         </div>
                     </div>
